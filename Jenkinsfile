@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'master', url: 'https://github.com/bybytan/hello-world-java.git'
+                git branch: 'master', url: 'https://github.com/bybytan/hello-world-java2.git'
             }
         }
         stage('Build') {
